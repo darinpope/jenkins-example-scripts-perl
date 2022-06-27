@@ -8,7 +8,7 @@ pipeline {
     }
     stage('hello') {
       steps {
-        sh 'perk hello.pl'
+        sh 'perl hello.pl'
       }
     }
   }
